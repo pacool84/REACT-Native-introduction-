@@ -6,7 +6,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text> 🤯 Hello my friend REACT Native 🤖</Text>
-      <Saludar />
+      <Saludar nombre="Sebastian" edad={7} />
+      <Saludar nombre="Brenda" edad={32} />
+      <Saludar nombre="Paco" edad={38} />
       <StatusBar style="auto" />
     </View>
   );
