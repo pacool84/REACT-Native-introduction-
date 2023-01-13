@@ -2,12 +2,13 @@ import React from "react";
 import { Text } from "react-native";
 
 function Saludar(props) {
-  console.log(props.nombre);
-  console.log(props.edad);
+  const { nombre, edad } = props;
+  console.log(nombre);
+  console.log(edad);
 
   return (
     <Text>
-      Hello my friend {props.nombre} con {props.edad} años
+      Hello my friend {nombre} con {edad} años
     </Text>
   );
 }
